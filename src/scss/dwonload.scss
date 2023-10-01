@@ -1,0 +1,78 @@
+.download{
+    border-bottom:6px solid rgb(70, 68, 68) ;
+    padding-bottom: 5rem;
+
+    .phone_things img{
+        width: 500px;
+    }
+    .relative_things{
+        position: relative;
+    }
+    .stranger_things{
+        position: absolute;
+        top: 16rem;
+        left: 7rem;
+        background-color: black;
+        width: 18rem;
+        padding-top: .75rem;
+        padding-bottom: .75rem;
+        border: 2px solid rgb(70, 68, 68);
+        border-radius: 20px;
+        -webkit-border-radius:20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+        text-align: center;
+        h5{
+            font-size: medium;
+            margin-bottom: 0%;
+            
+        }
+        span{
+            color: rgb(6, 106, 255);
+        }
+        .img_stranger img{
+            width: 50px;
+        }
+        .down_stranger img{
+            width: 50px;
+        }
+}
+
+}
+
+
+
+
+@media screen and (max-width: 1024px){
+    .download{
+        .phone_things img{
+            width: 340px;
+        }
+        .img_stranger img{
+            width: 40px !important;
+        }
+        .down_stranger{
+            width: 40px !important;
+        }
+        .stranger_things{
+            top: 10rem;
+            left: 2rem;
+            width: 18rem;
+            height: 4.75rem;
+        }
+        .wrap{
+            flex-wrap: nowrap;
+            width: 40%;
+            
+        }
+    }
+}
+
+
+
+@media screen and (max-width: 600px){
+    .phone_things img{
+        width: 250pxpx;
+    }
+}

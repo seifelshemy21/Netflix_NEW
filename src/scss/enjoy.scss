@@ -1,0 +1,43 @@
+.enjoy{
+    border-bottom:6px solid rgb(70, 68, 68) ;
+    padding-bottom: 5rem;
+   
+    .tv img{
+        width: 500px;
+    }
+    .position{
+        position: relative;
+    }
+    .video_tv video{
+        position: absolute;
+        top: 4.4rem;
+        left: 4.6rem;
+        width: 375px;
+        z-index: -1;
+    }
+}
+
+
+
+
+
+@media screen and (max-width: 1024px){
+    .enjoy{
+        .tv img{
+            width: 325px ;
+        }
+        .video_tv video{
+            width: 240px;
+            top: 3rem;
+            left: 3.5rem;
+        }
+    }
+}
+
+
+
+@media screen and (max-width: 600px){
+    .tv img{
+        width: 200px ;
+    }
+}

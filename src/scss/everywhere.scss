@@ -1,0 +1,40 @@
+.everywhere{
+    border-bottom:6px solid rgb(70, 68, 68) ;
+    padding-bottom: 5rem;
+
+    .tv_everywhere img{
+        width: 500px;
+    }
+    .position_everywhere{
+        position: relative;
+    }
+    .video_tv_everywhere video{
+        position: absolute;
+        top: 2.5rem;
+        left: 6.75rem;
+        width: 300px;
+        z-index: -1;
+    }
+}
+
+
+@media screen and (max-width: 1024px){
+    .everywhere{
+        .tv_everywhere img{
+            width: 325px ;
+        }
+        .video_tv_everywhere video{
+            width: 200px;
+            top: 1.5rem;
+            left: 4.5rem;
+        }
+    }
+}
+
+
+
+@media screen and (max-width: 600px){
+    .tv_everywhere img{
+        width: 200px ;
+    }
+}

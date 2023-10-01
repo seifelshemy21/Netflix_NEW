@@ -1,0 +1,18 @@
+.kids{
+    border-bottom:6px solid rgb(70, 68, 68) ;
+    padding-bottom: 5rem;
+
+}
+@media screen and (max-width: 1024px){
+    .kids{
+        .kids_img img{
+            width: 350px;
+        }
+    }
+}
+
+
+
+@media screen and (max-width: 600px){
+    
+}
